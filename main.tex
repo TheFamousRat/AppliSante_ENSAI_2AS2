@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+\title{Cahier des charges - Projet info}
+\author{Guillaume Roy}
+\date{September 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{Définition du problème}
+
+\tab Dans le cadre de l'activité sportive ou du suivi de sa santé personnelle, il est primordial de pouvoir obtenir et suivre diverses données physiques : rythme cardiaque, activité physique, podométrie. En effet, obtenir ces informations permet au début d'évaluer sa situation, et ensuite les comparer permet d'estimer un progrès accompli ou futur. \\
+\tab Aujourd'hui, de nombreux outils permettent d'obtenir une grande quantité de telles données. Parmi ces objets électroniques, on trouve notamment les montres connectées, qui permettent de suivre en temps réel et précisément nombre de ces indicateurs. Néanmoins, la quantité de données produites par ces objets est en conséquence très important et de fait, inaccessible sans traitement. \\
+\tab Ainsi, il est nécessaire de concevoir une application permettant la lecture de ces données, que ce soit via des indicateurs statistiques sur ces données, ou via des graphiques sur une période définie. \\
+\tab Il est également important de garantir la portabilité et l'ergonomie de l'objet de mesure, pour permettre à l'utilisateur de continuer son suivi sur une diversité d'activités physiques la plus grande possible. \\
+
+\section{Objectif}
+
+\tab Afin de garantir la portabilité de l'objet de mesure, et pour suivre les contraintes de l'exercice, notre application traitera les données d'une montre connecté. L'objectif est ainsi de permettre une présentation synthétique du suivi physique de l'utilisateur.
+
+\section{Perimètre}
+
+\tab Le public est celui d'utilisateurs de montres connectées, et plus généralement les utilisateurs de podomètres connectés dans leur ensemble. 
+
+\section{Description fonctionnelle des besoins}
+
+Fonction principale : Permettre le suivi et la présentation des données physiques de l'utilisateur
+
+\begin{itemize}
+  \item Affichage de graphiques sur une période déterminée
+  \item Affichage de statistiques sur certaines données
+  \item Se déconnecter/connecter
+  \item Consulter son profil
+  \item Consulter son classement
+  \item Stockage de graphiques
+\end{itemize}
+
+\end{document}
